@@ -1,8 +1,11 @@
 # TechSonIx-FEB-Taur-Task3
 Task 3: Basic API Integration
-This task involves fetching and displaying weather data from the OpenWeatherMap API. The application allows users to search for a city and view real-time weather information.
+This task involves fetching and displaying weather data from the OpenWeatherMap API.
+The application allows users to search for a city and view real-time weather information.
+
 
 Features
+
 Search Functionality: Users can enter a city name to fetch weather data.
 Dynamic Weather Display: Displays the following information:
 City name and country
@@ -14,18 +17,26 @@ Wind speed
 Loading State: Shows a loading spinner while fetching data.
 Error Handling: Displays user-friendly error messages if the city is not found or if there’s a connection issue.
 Modern UI: Clean and responsive design with a gradient background.
+
 📂 File Structure
-Task 3/ ├── index.html ├── css/ │ └── styles.css ├── js/ │ └── weather.js └── assets/ └── (optional: icons or images)
+
+Task 3/├── index.html ├── css/ │ └── styles.css ├── js/ │ └── weather.js └── assets/ └── (optional: icons or images)
+
 
 Files
+
 index.html: The main HTML file containing the weather dashboard structure.
 css/styles.css: Stylesheet for the dashboard layout and design.
 js/weather.js: JavaScript file containing the API integration and logic.
+
 How to Run
+
 Get an API key from OpenWeatherMap.
 Replace YOUR_API_KEY in the weather.js file with your actual API key.
 Open the index.html file in a web browser.
 Enter a city name (e.g., "London") and click the search button to view weather data.
+
+
 Example
 Search for: London
 Output:
